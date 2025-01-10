@@ -1,3 +1,5 @@
+
+
 {
   "version": 2,
   "builds": [
@@ -8,12 +10,9 @@
   ],
   "routes": [
     {
-      "src": "/get_location_names",
-      "dest": "/server.py"
-    },
-    {
-      "src": "/predict_home_price",
+      "src": "/(.*)", 
       "dest": "/server.py"
     }
   ]
 }
+
