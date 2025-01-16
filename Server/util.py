@@ -5,7 +5,7 @@
 
 # __locations = None
 # __data_columns = None
-# __model = None
+# __ model = None
 
 
 # def get_estimated_price(location, sqft, bhk, bath):
