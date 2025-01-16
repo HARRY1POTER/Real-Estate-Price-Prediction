@@ -3,7 +3,7 @@ function getBathValue() {
   for (var i in uiBathrooms) {
     if (uiBathrooms[i].checked) {
       return parseInt(i) + 1;
-    }
+    } 
   }
   return -1; // Invalid Value
 }
