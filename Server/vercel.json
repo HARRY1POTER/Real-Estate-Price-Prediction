@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "server.py",
+      "src": "index.py",
       "use": "@vercel/python",
       "config": {
         "pythonVersion": "3.10"
@@ -12,11 +12,11 @@
   "routes": [
     {
       "src": "/get_location_names",
-      "dest": "/server.py"
+      "dest": "/index.py"
     },
     {
       "src": "/predict_home_price",
-      "dest": "/server.py"
+      "dest": "/index.py"
     }
   ]
 }
