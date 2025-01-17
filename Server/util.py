@@ -6,7 +6,7 @@
 # __locations = None
 # __data_columns = None
 # __ model = None
-
+  
 
 # def get_estimated_price(location, sqft, bhk, bath):
 #     try:
@@ -55,7 +55,7 @@
 #     print(get_estimated_price('1st Phase JP Nagar', 1000, 2, 2))
 #     print(get_estimated_price('Kalhalli', 1000, 2, 2))  # other location
 #     print(get_estimated_price('Ejipura', 1000, 2, 2))  # other location
-  
+
 
 import pickle
 import json
