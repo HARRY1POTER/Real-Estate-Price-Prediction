@@ -5,6 +5,11 @@ import util
 app = Flask(__name__)
 
 
+@app.route("/")
+def start():
+    return "The server is Running"
+
+
 @app.route('/get_location_names', methods=['GET'])
 def get_location_names():
     response = jsonify({
@@ -30,7 +35,7 @@ def predict_home_price():
     return response
 
 
-if __name__ == "__main__":
-    print("Starting Python Flask Server For Home Price Prediction...")
-    util.load_saved_artifacts()
-    app.run()
+# if __name__ == "__main__":
+#     print("Starting Python Flask Server For Home Price Prediction...")
+#     util.load_saved_artifacts()
+#     app.run()

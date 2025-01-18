@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.py",
+      "src": "./index.py",
       "use": "@vercel/python",
       "config": {
         "pythonVersion": "3.10"
@@ -11,14 +11,9 @@
   ],
   "routes": [
     {
-      "src": "/get_location_names",
-      "dest": "/app.py"
-    },
-    {
-      "src": "/predict_home_price",
-      "dest": "/app.py"
+     "src": "/(.*)",
+      "dest": "/"
     }
   ]
 }
-
 
