@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def start():
     return "The server is Running"
-
+ 
 
 @app.route('/get_location_names', methods=['GET'])
 def get_location_names():
