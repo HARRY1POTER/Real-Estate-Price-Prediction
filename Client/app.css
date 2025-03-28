@@ -4,7 +4,7 @@
   display: flex;
   margin-bottom: 36px; 
   overflow: hidden;
-} 
+}  
 
 .switch-field input {
   position: absolute !important;
